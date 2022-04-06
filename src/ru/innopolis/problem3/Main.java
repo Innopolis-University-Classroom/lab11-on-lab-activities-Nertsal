@@ -36,5 +36,6 @@ class Audio implements AudioPlayer {
 
 class PlayerDevice {
     void playMp4(MediaPlayer player) {
+        player.playMp4();
     }
 }
